@@ -2,30 +2,30 @@
 standalone python apps with both frontend and backend built from scratch
 
 ## Introduction
-This folder contains some recent development of python apps using PyGame 
-and Tkinter as GUI libraries. I developed both the frontend and backend
+This folder contains some recent development of python apps using Streamlit, 
+PyGame and Tkinter as GUI libraries. I developed both the frontend and backend
 from scratch. The apps can be run standalone except for weatherapp, where
 an api key and the city-list are necessary to start the app. 
 
 ### forex_hist.py
-This is an app for fetching historical forex exchange rates for some 
+This is a Tkinter app for fetching historical forex exchange rates for some 
 important pairs I used to check. The app also plot the data with several
 indicators, such as exponential moving average and Bollinger's band. 
 
+### othello.py
+This is an extension of my tic-tac-toe PyGame app that it runs as a game of 
+Othello with a decision-tree based AI as an opponent. There are three
+dificulties available. 
+
 ### portfolio_management.py
-This is a small app using StreamLit to develop a webpage interface for 
+This is a StreamLit app using StreamLit to develop a webpage interface for 
 portfolio optimization. Based on the given choices of stocks and their
 ratio, the app calcaultes the annual return in last five years. Then
 it generates the optimized model based on Sharpe ratio in the efficient
 frontier analysis.
 
-### othello.py
-This is an extension of my tic-tac-toe app that it runs as a game of 
-Othello with a decision-tree based AI as an opponent. There are three
-dificulties available. 
-
 ### saint-saens.py
-This is a mini app using StreamLit to develop a query webpage. Based on 
+This is a StreanLit app using StreamLit to develop a query webpage. Based on 
 the given gener and composition title, or the opus number, the page
 returns the candidate composition. 
 
