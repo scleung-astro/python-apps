@@ -12,10 +12,22 @@ This is an app for fetching historical forex exchange rates for some
 important pairs I used to check. The app also plot the data with several
 indicators, such as exponential moving average and Bollinger's band. 
 
+### portfolio_management.py
+This is a small app using StreamLit to develop a webpage interface for 
+portfolio optimization. Based on the given choices of stocks and their
+ratio, the app calcaultes the annual return in last five years. Then
+it generates the optimized model based on Sharpe ratio in the efficient
+frontier analysis.
+
 ### othello.py
 This is an extension of my tic-tac-toe app that it runs as a game of 
 Othello with a decision-tree based AI as an opponent. There are three
 dificulties available. 
+
+### saint-saens.py
+This is a mini app using StreamLit to develop a query webpage. Based on 
+the given gener and composition title, or the opus number, the page
+returns the candidate composition. 
 
 ### tictactoe.py
 This is the first open-source PyGame app I developed. The simple tic-tac-toe
