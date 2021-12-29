@@ -7,10 +7,21 @@ PyGame and Tkinter as GUI libraries. I developed both the frontend and backend
 from scratch. The apps can be run standalone except for weatherapp, where
 an api key and the city-list are necessary to start the app. 
 
+### account_manager.py
+This is a standalone Tkinter app which helps you to manage your transaction
+for daily expenses. The app can manage multiple transaction among accounts.
+It can also save and read data in csv format so that you can use the app
+at any time your want. 
+
 ### forex_hist.py
 This is a Tkinter app for fetching historical forex exchange rates for some 
 important pairs I used to check. The app also plot the data with several
 indicators, such as exponential moving average and Bollinger's band. 
+
+### image_converter.py
+This apps is my experiemental study of using Tkinter to convert and transform
+image with different standard converter to understand how boundary and 
+object can be captured in the minimal level. 
 
 ### othello.py
 This is an extension of my tic-tac-toe PyGame app that it runs as a game of 
