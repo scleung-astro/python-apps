@@ -40,6 +40,16 @@ This is a StreanLit app using StreamLit to develop a query webpage. Based on
 the given gener and composition title, or the opus number, the page
 returns the candidate composition. 
 
+### sql_manager
+A mini application combining PySimpleGUI and SQLite3 in Python. The folder
+contains both the python file and a sample database to test the code. You can
+also run the code with other databases (the sample one contains the minimal
+amount of information to demonstrate how SQLite interacts with PySimpleGUI 
+to access SQL database and its GUI.)
+
+Note: At the beginning a window pops up. There you need to provide the path
+of the database.
+
 ### tictactoe.py
 This is the first open-source PyGame app I developed. The simple tic-tac-toe
 provides an excellent place for me to develop the decision-tree from scratch
